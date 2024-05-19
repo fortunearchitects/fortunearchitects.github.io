@@ -1,14 +1,60 @@
-/* Stylesheet for My Website */
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #333;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
     text-align: center;
-    margin-top: 100px;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 0.8em;
 }
